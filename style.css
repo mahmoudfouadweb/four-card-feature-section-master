@@ -11,6 +11,7 @@ body {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
   line-height: 1;
+  background-color: hsl(0, 0%, 98%);
 }
 /**************************/
 /* STYLES */
@@ -54,11 +55,40 @@ body {
   padding: 0 5.6rem;
   color: hsl(229, 6%, 66%);
 }
+
+.card-one {
+  border-top: 6px solid hsl(180, 62%, 55%);
+  grid-row: 2/4;
+}
+
+.card-two {
+  border-top: 6px solid hsl(0, 78%, 62%);
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.card-three {
+  border-top: 6px solid hsl(34, 97%, 64%);
+  grid-column: 2/3;
+  grid-row: 3/-1;
+}
+
+.card-four {
+  border-top: 6px solid hsl(212, 86%, 64%);
+  grid-row: 2/4;
+}
+
 /**************************/
 /* GENERAL  COMPONENT STYLES */
 /**************************/
+.flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
+  column-gap: 1.6rem;
+  row-gap: 1.6rem;
 }
 
 .grid-3--col {
@@ -67,6 +97,32 @@ body {
 
 .grid-4--row {
   grid-template-rows: repeat(4, 1fr);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 2.4rem;
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1.6rem;
+}
+
+.feature-card-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 2.4rem;
+}
+
+.icon-box {
+  justify-content: flex-end;
 }
 /*  
 --- 01 TYPOGRAPHY SYSTEM
