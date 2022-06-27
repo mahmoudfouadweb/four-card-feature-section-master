@@ -9,14 +9,19 @@
 
 body {
   font-size: 62.5%;
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
-  color: hsl(0, 0%, 95%);
 }
 /**************************/
 /* STYLES */
 /**************************/
+.feature-section {
+  max-width: 144rem;
+}
 
+.container {
+  padding: 6.4rem;
+}
 /**************************/
 /* GENERAL  COMPONENT STYLES */
 /**************************/
