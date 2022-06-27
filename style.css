@@ -22,11 +22,51 @@ body {
 .container {
   padding: 6.4rem;
 }
+
+.feature-heading-box {
+  padding: 0 12.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.secondary-heading,
+.heading-primary {
+  text-align: center;
+}
+
+.secondary-heading {
+  font-size: 2.4rem;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1.2rem;
+}
+
+.heading-primary {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: center;
+  padding: 0 5.6rem;
+  color: hsl(229, 6%, 66%);
+}
 /**************************/
 /* GENERAL  COMPONENT STYLES */
 /**************************/
-.flex {
-  display: flex;
+.grid {
+  display: grid;
+}
+
+.grid-3--col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4--row {
+  grid-template-rows: repeat(4, 1fr);
 }
 /*  
 --- 01 TYPOGRAPHY SYSTEM
@@ -85,4 +125,4 @@ We provide the required social icons. But, if you prefer, you can use a font ico
 - [IcoMoon](https://icomoon.io)
 - [Ionicons](https://ionicons.com)
 
-*/
+*/ ;
